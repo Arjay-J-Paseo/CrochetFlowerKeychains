@@ -1,0 +1,196 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: 'Times New Roman', Times, serif;
+list-style: none;
+text-decoration: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: hotpink;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 10px;
+    box-shadow: cornsilk;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+}
+header .logo span{color:chartreuse ;}
+
+.navmenu{display: flex;}
+.navmenu a{
+    color:gold;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: all .40s ease;
+}
+.navmenu a:hover{
+    color: aliceblue;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    color:aliceblue;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+.nav-icon i:hover{
+    color: gold;
+}
+section{padding: 10% 5%;}
+.home{
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background-image: url(p3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section h2{
+    font-style: inherit;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+section p{
+    font-style: italic;
+    text-align: center;
+
+}
+section h5{
+    font-style: inherit;
+}
+section h3{
+    font-style: inherit;
+}
+
+.down-arrow{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+}
+.down i{
+    color: gold;
+    border-radius: 40px ;
+    border: 2px solid deeppink;
+    padding: 10px 10px;
+    font-size: 26px;
+}
+.down i:hover{
+    color: deeppink;
+    background-color: gold;
+}
+.products{
+    display: grid;
+    grid-template-columns:auto;
+    gap: 2px; 
+    background-image: url(p6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.row{
+    position:relative;
+}
+.row img{
+    width: 25%;
+    height: auto;}
+
+.about{
+    background-color: pink;
+}
+
+    
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: nowrap;
+    background-color:lightpink;
+    width: 100%;
+}
+
+.contact-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.contact-logo {
+    text-align: left;
+    color: hotpink;
+}
+.contact-logo .logo{
+    color: hotpink;
+}
+.contact-logo .logo span{
+    color: yellowgreen;
+}
+
+.contact-details {
+    text-align: left;
+    color: hotpink;
+    
+}
+
+.social-icons {
+    text-align: center;
+    color: hotpink;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+.social-icon a:hover{color: aliceblue;}
+.support-links h4{
+    color: hotpink;
+    text-align: center;
+    
+}
+.support-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.support-links ul,li {
+    display: inline;
+    margin: 0 5px;
+    color: hotpink;
+}
+.support-links ul,li:hover{color: aliceblue;}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color:lightpink;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    color:hotpink;
+    font-style: italic
+}
